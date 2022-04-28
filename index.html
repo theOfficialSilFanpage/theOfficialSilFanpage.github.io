@@ -1,0 +1,23 @@
+﻿<html>
+<head>
+    <title id="titlecontainer">About Sil - The Official Sil Fanpage</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="icon" href="img/ico.png"/>
+</head>
+<body>
+    <ul>
+        <li><a onclick="changeContainer('aboutsil.html','About Sil')">About Sil</a></li>
+        <li><a onclick="changeContainer('silloveletter.html','Sil love letter')">Sil love letter</a></li>
+        <li><a onclick="changeContainer('picturesofsil.html','Sil pics')">Sil pics</a></li>
+    </ul>
+    <iframe src="aboutsil.html" id="container" allowTransparency="true" scrolling="no" frameborder="0" >
+    </iframe>
+    <script type="text/javascript">
+        function changeContainer(page,title)
+        {
+            document.getElementById("container").src=page;
+            document.getElementById("titlecontainer").innerHTML=title;
+        }
+    </script>
+</body>
+</html>
