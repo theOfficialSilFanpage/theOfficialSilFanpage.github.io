@@ -51,3 +51,16 @@ li a:hover
 {
     text-decoration: underline;
 }
+img
+{
+    width:400px;
+    height:400px;
+}
+#sil2
+{
+    width: 600px;
+}
+#sil5
+{
+    width: 500px; 
+}
